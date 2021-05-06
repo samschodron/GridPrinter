@@ -73,8 +73,7 @@ printnewline:
         add     r9, #1
         add     SPTR, #4
         b       print
-
-        /* End of your program.         */
+      
         /* Function epilogue.           */
         /* Restores the environment from the O/S. */
 done:
